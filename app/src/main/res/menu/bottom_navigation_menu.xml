@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:state_checked="true"
+            android:color="@color/colorPrimary" />
+        <item
+            android:state_checked="false"
+            android:color="@color/grey" />
+    </selector>
+    <item
+        android:icon="@drawable/ic_action_home"
+        android:title="Menu" />
+    <item
+        android:icon="@drawable/ic_action_time"
+        android:title="Transaksi" />
+    <item
+        android:icon="@drawable/ic_action_person"
+        android:title="User" />
+</menu>
